@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover and explore amazing games in our curated collection">
+    <meta name="keywords" content="games, gaming, video games, game reviews">
+    <title>Charteye GameVault - Your Gaming Universe</title>
+    <link rel="canonical" href="https://charteye.online" />
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="https://charteye.online" class="flex items-center">
+                    <span class="text-2xl font-bold">Charteye GameVault</span>
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="https://charteye.online" class="nav-link active">Games</a>
+                <a href="https://charteye.online/news" class="nav-link">News</a>
+                <a href="https://charteye.online/forum" class="nav-link">Forum</a>
+                <button id="darkModeToggle" aria-label="Toggle dark mode">
+                    🌙
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Discover Your Next Online Gaming Adventure</h1>
+                    <p class="hero-subtitle">Explore our curated collection of amazing games across all platforms</p>
+                    <div class="hero-search">
+                        <input type="text" placeholder="Search games..." class="search-input">
+                        <button class="search-button">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- Featured Games -->
+            <section class="featured-games">
+                <h2 class="section-title">All Games</h2>
+                <div class="featured-grid">
+                    <!-- 3D Solitaire -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/3d-solitaire" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/3dSolitaireTeaser.jpg" alt="3D Solitaire">
+                            <div class="game-card-content">
+                                <h2 class="game-title">3D Solitaire</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.7</div>
+                                </div>
+                                <p class="game-description">Experience classic Solitaire in stunning 3D with beautiful card animations!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Speed Master -->
+                    <article class="game-card" data-category="action">
+                        <a href="https://play.famobi.com/speed-master" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/SpeedMasterTeaser.jpg" alt="Speed Master">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Speed Master</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Action</span>
+                                    <div class="rating">⭐ 4.3</div>
+                                </div>
+                                <p class="game-description">Race against time in this fast-paced action game!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Go Around -->
+                    <article class="game-card" data-category="action">
+                        <a href="https://play.famobi.com/go-around" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/GoAroundTeaser.jpg" alt="Go Around">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Go Around</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Action</span>
+                                    <div class="rating">⭐ 4.4</div>
+                                </div>
+                                <p class="game-description">Navigate through challenging obstacles in this addictive arcade game!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Words of Wonders -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/words-of-wonders" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/WordsOfWondersTeaser.jpg" alt="Words of Wonders">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Words of Wonders</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.6</div>
+                                </div>
+                                <p class="game-description">Challenge your vocabulary in this word puzzle adventure!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Pull Pins -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/pull-pins" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/PullPinsTeaser.jpg" alt="Pull Pins">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Pull Pins</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.5</div>
+                                </div>
+                                <p class="game-description">Pull the pins in the right order to solve challenging puzzles!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Mahjong Cards -->
+                    <article class="game-card" data-category="cards">
+                        <a href="https://play.famobi.com/mahjong-cards" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/MahjongTeaser.jpg" alt="Mahjong Cards">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Mahjong Cards</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Cards</span>
+                                    <div class="rating">⭐ 4.4</div>
+                                </div>
+                                <p class="game-description">A unique blend of Mahjong and card matching!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Bubble Woods -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/bubble-woods" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/BubbleWoodsTeaser.jpg" alt="Bubble Woods">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Bubble Woods</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.7</div>
+                                </div>
+                                <p class="game-description">Pop colorful bubbles in this enchanting forest adventure!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Onet Connect Classic -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/onet-connect-classic" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/OnetConnectClassicTeaser.jpg" alt="Onet Connect Classic">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Onet Connect Classic</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.8</div>
+                                </div>
+                                <p class="game-description">Match pairs of tiles in this classic connecting game!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Maze -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/maze" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/MazeTeaser.jpg" alt="Maze">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Maze</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.3</div>
+                                </div>
+                                <p class="game-description">Navigate through increasingly challenging mazes!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Bubble Shooter -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/bubble-shooter" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/BubbleShooterTeaser.jpg?v=0.2-f96e2573" alt="Bubble Shooter">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Bubble Shooter</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.9</div>
+                                </div>
+                                <p class="game-description">Match and pop colorful bubbles in this classic arcade game!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Tower Crash 3D -->
+                    <article class="game-card" data-category="action">
+                        <a href="https://play.famobi.com/tower-crash-3d" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/TowerCrash3dTeaser.jpg" alt="Tower Crash 3D">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Tower Crash 3D</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Action</span>
+                                    <div class="rating">⭐ 4.5</div>
+                                </div>
+                                <p class="game-description">Destroy towers with precise shots in stunning 3D!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Penalty Shooters 2 -->
+                    <article class="game-card" data-category="sports">
+                        <a href="https://play.famobi.com/penalty-shooters-2" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/PenaltyShooters2Teaser.jpg" alt="Penalty Shooters 2">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Penalty Shooters 2</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Sports</span>
+                                    <div class="rating">⭐ 4.7</div>
+                                </div>
+                                <p class="game-description">Test your penalty shooting and goalkeeping skills!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Totemia: Cursed Marbles -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/totemia-cursed-marbles" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/TotemiaCursedMarblesTeaser.jpg" alt="Totemia: Cursed Marbles">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Totemia: Cursed Marbles</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.6</div>
+                                </div>
+                                <p class="game-description">Match magical marbles in this mystical puzzle adventure!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Jigsaw Puzzle Deluxe -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/jigsaw-puzzle-deluxe" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/JigsawPuzzleDeluxeTeaser.jpg" alt="Jigsaw Puzzle Deluxe">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Jigsaw Puzzle Deluxe</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.8</div>
+                                </div>
+                                <p class="game-description">Enjoy classic jigsaw puzzles with beautiful images and multiple difficulty levels!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- 3D Bowling -->
+                    <article class="game-card" data-category="sports">
+                        <a href="https://play.famobi.com/3d-bowling" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/3dBowlingTeaser.jpg" alt="3D Bowling">
+                            <div class="game-card-content">
+                                <h2 class="game-title">3D Bowling</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Sports</span>
+                                    <div class="rating">⭐ 4.7</div>
+                                </div>
+                                <p class="game-description">Experience realistic bowling physics in stunning 3D graphics!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Boat Battles -->
+                    <article class="game-card" data-category="action">
+                        <a href="https://play.famobi.com/boat-battles" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/BoatBattlesTeaser.jpg" alt="Boat Battles">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Boat Battles</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Action</span>
+                                    <div class="rating">⭐ 4.6</div>
+                                </div>
+                                <p class="game-description">Engage in epic naval warfare with strategic ship placement!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Solitaire Klondike -->
+                    <article class="game-card" data-category="cards">
+                        <a href="https://play.famobi.com/solitaire-klondike" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/SolitaireKlondikeTeaser.jpg" alt="Solitaire Klondike">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Solitaire Klondike</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Cards</span>
+                                    <div class="rating">⭐ 4.9</div>
+                                </div>
+                                <p class="game-description">The classic card game with smooth animations and intuitive controls!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Get 10 -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/get-10" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/Get10Teaser.jpg" alt="Get 10">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Get 10</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.8</div>
+                                </div>
+                                <p class="game-description">Merge numbers strategically to reach the ultimate goal of 10!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Text Twist 2 -->
+                    <article class="game-card" data-category="word">
+                        <a href="https://play.famobi.com/text-twist-2" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/TextTwist2Teaser.jpg" alt="Text Twist 2">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Text Twist 2</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Word</span>
+                                    <div class="rating">⭐ 4.6</div>
+                                </div>
+                                <p class="game-description">Challenge your vocabulary in this addictive word scramble game!</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Kids Block Puzzle -->
+                    <article class="game-card" data-category="puzzle">
+                        <a href="https://play.famobi.com/kids-block-puzzle" target="_blank">
+                            <img src="https://img.cdn.famobi.com/portal/html5games/images/tmp/KidsBlockPuzzleTeaser.jpg" alt="Kids Block Puzzle">
+                            <div class="game-card-content">
+                                <h2 class="game-title">Kids Block Puzzle</h2>
+                                <div class="game-meta">
+                                    <span class="category-tag">Puzzle</span>
+                                    <div class="rating">⭐ 4.5</div>
+                                </div>
+                                <p class="game-description">Fun and educational block puzzle game perfect for children!</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Charteye GameVault</h3>
+                    <p>Your ultimate destination for discovering amazing games across all platforms.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="https://charteye.online/about">About</a></li>
+                        <li><a href="https://charteye.online/contact">Contact</a></li>
+                        <li><a href="https://charteye.online/privacy">Privacy Policy</a></li>
+                        <li><a href="https://charteye.online/terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Discord">Discord</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Charteye GameVault. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html> 

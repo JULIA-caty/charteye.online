@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="General Gaming Discussion - GameVault Forum">
+    <meta name="keywords" content="gaming discussion, game chat, gaming community">
+    <title>General Gaming - GameVault Forum</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html" class="flex items-center">
+                    <span class="text-2xl font-bold">GameVault</span>
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Games</a>
+                <a href="news.html" class="nav-link">News</a>
+                <a href="forum.html" class="nav-link active">Forum</a>
+                <button id="darkModeToggle" aria-label="Toggle dark mode">
+                    🌙
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero forum-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">General Gaming Discussion</h1>
+                    <p class="hero-subtitle">Discuss all things gaming related</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="forum-navigation">
+                <a href="forum.html" class="forum-back">← Back to Categories</a>
+                <button class="new-topic-btn">New Topic</button>
+            </div>
+
+            <section class="forum-topics">
+                <div class="topics-header">
+                    <div class="topic-title">Topic</div>
+                    <div class="topic-stats">
+                        <span>Replies</span>
+                        <span>Views</span>
+                        <span>Last Post</span>
+                    </div>
+                </div>
+
+                <div class="topics-list">
+                    <div class="topic-item">
+                        <div class="topic-main">
+                            <div class="topic-icon">📌</div>
+                            <div class="topic-content">
+                                <h3>Welcome to General Gaming Discussion!</h3>
+                                <div class="topic-meta">
+                                    <span>By Admin</span>
+                                    <span>Pinned</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="topic-stats">
+                            <span>45</span>
+                            <span>1.2k</span>
+                            <span>2 hours ago</span>
+                        </div>
+                    </div>
+
+                    <div class="topic-item">
+                        <div class="topic-main">
+                            <div class="topic-icon">💬</div>
+                            <div class="topic-content">
+                                <h3>What's your favorite game of 2024 so far?</h3>
+                                <div class="topic-meta">
+                                    <span>By GameLover</span>
+                                    <span>Hot Discussion</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="topic-stats">
+                            <span>128</span>
+                            <span>3.4k</span>
+                            <span>5 min ago</span>
+                        </div>
+                    </div>
+
+                    <!-- More topic items... -->
+                </div>
+
+                <div class="topics-pagination">
+                    <button class="page-btn active">1</button>
+                    <button class="page-btn">2</button>
+                    <button class="page-btn">3</button>
+                    <span>...</span>
+                    <button class="page-btn">12</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <!-- Footer content remains the same -->
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html> 
